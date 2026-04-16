@@ -37,7 +37,9 @@ table {
   border-collapse: collapse;
 }
 
-table, th, td {
+table,
+th,
+td {
   border: 1px solid black;
   padding: 10px;
 }
@@ -53,7 +55,8 @@ form {
   margin: auto;
 }
 
-input, textarea {
+input,
+textarea {
   margin: 10px 0;
   padding: 10px;
 }
@@ -84,7 +87,6 @@ footer {
   margin-top: 20px;
 }
 @media (max-width: 768px) {
-
   nav {
     flex-direction: column;
     align-items: center;
